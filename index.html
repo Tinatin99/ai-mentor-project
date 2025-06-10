@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <link rel="icon" href="/images/Newtons_cradle.gif">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/styles/reset.css">
+
+    <link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/alk-life/css/alk-life.min.css">
+
+    <link rel="stylesheet" href="./styles/fonts.css">
+
+    <link rel="stylesheet" href="styles/style.css"> 
+
+     <link rel="stylesheet" href="styles/responsive.css"> 
+
+     <!-- Tailwind CSS Link -->
+     <link href="dist/style.css" rel="stylesheet"> 
+ 
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
+
+    <link rel="stylesheet" href="https://phet.colorado.edu/ka/simulations/filter?subjects=physics&type=html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+<!-- დასერჩვის ოპტიმიზაცია, ხშირად იყოს ძებნადი, ამოვიდეს ძებნის სიაში -->
+    <meta name="description" content="Educational">   <!--აღწერა-->
+
+    <meta name="keywords" content="physic,test,Isaac Newton,albert Einstein">   <!--მნიშვნელოვანი სიტყვები-->
+
+    <meta name="author" content="Tinatin Davitadze">  <!--ვინ შექმნა ეს საიტი-->
+
+
+    <!--  facebook meta tags -->
+
+    <meta property="og:url"                content="https://tinatin99.github.io/my_project/" />
+
+    <meta property="og:type"               content="educational" />
+
+    <meta property="og:title"              content="PhysTeria" />
+
+    <meta property="og:description"        content="How important is the knowledge of physics to a person's life?" />
+
+<!-- რამდენად მნიშვნელოვანია ფიზიკის ცოდნა ადამიანის ცხოვრებაში? -->
+
+<meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+
+
+
+
+
+
+        <title>მთავარი / ფიზტერია</title>
+
+
+        <!-- გადასახედი და დასაზუსტებელი -->
+
+        <!-- https://responsivetesttool.com/ -->
+
+         <!-- https://validator.w3.org/#validate_by_input -->
+
+          <!-- google transfonter -->
+
+          <!-- webkit     webfonts -->
+
+           <!-- autoprefix -->
+
+            <!-- minify.css -->
+
+              <!--unminify.css -->
+
+
+              <!-- Autoprefixer CSS online
+Autoprefixer is a PostCSS plugin which parses your CSS and adds vendor prefixes 
+Autoprefixer CSS ონლაინ
+Autoprefixer არის PostCSS მოდული, რომელიც აანალიზებს თქვენს CSS-ს და ამატებს გამყიდველის პრეფიქსებს. პრობლემურ ტეგებს ამოწმებს და ამატებს თუ არასრულად გვაქვს გაწერილი, რადგან შემდგომში საიტი იყოს ყველა ბრაუზერისთვი წაკითხვადი.
+-->
+
+<!-- HTML Forms -->
+              
+
+   
+</head>
+<body class="physicsbody" id="physicsbody">
+
+
+  <header class="header-wraper">
+
+
+   
+      
+
+    <a  href="index.html"><img class="logo_image"  src="http://physics.aidio.net/images/meqanika/atom.gif" alt="physic" title="ფიზიკა"></a>
+
+    
+    
+    <h1> <strong> ფიზტერია </strong> </h1>
+    
+    <nav class="navigation" id="navigation">
+        <ul class="ul">
+
+            <li class="nav_li"><a href="index.html" target="_blank"><strong>მთავარი</strong></a></li>  
+            
+            
+            <li class="nav_li"><a href="physicists.html" target="_blank"><strong> ფიზიკოსები </strong></a></li>
+
+          
+            <li class="nav_li"><a href="news.html" target="_blank"><strong>სიახლეები</strong></a></li> 
+
+            <li class="nav_li"><a href="fizika_promenebi.html" target="_blank"><strong> ფიზიკა და <br> ყოველდღიურობა </strong></a></li> 
+
+            <li class="nav_li"><a href="poster.html" target="_blank"><strong> პოსტერი <br> PDF </strong></a></li> 
+
+            <li class="nav_li"><a href="about.html" target="_blank"><strong>ჩვენს</strong> <br> <strong>შესახებ</strong></a></li>
+
+            
+            <li class="nav_li"><a href="contact.html" target="_blank"><strong>საკონტაქტო</strong><br><strong>ინფორმაცია</strong></a></li>
+                   </ul>
+    </nav>
+
+
+    <div class="burger" id="burger">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    
+    
+
+</header>
+
+        <!--ვალიდატორში შეცდომა -->
+<main>
+        <section >
+            <div class="slider-wrapper" id="myDiv">
+                <img class="key" src="img/ct.png" alt="">
+                <button class="arrow arrow-left" id="arrow-left"> <i class="fa-solid fa-arrow-left"></i> </button>
+                <button class="arrow arrow-right" id="arrow-right"> <i class="fa-solid fa-arrow-right"></i> </button>
+
+                <div class="slider" id="slider">
+
+                </div>
+            </div>
+        </section>
+
+        <!-- autoprefixer -->
+    
+
+
+
+
+
+        <section>
+            <div id="home2" class="home2">
+                <h3 class="home"><strong>შეისწავლე ფიზიკა: <br><br> ენერგია, მოძრაობა და ბუნების კანონები</strong></h3>
+                <iframe class="video1" width="90%" height="500" src="https://www.youtube.com/embed/_SDRHrCsmT0?si=aQcc56INq0ewlYPB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+          
+
+     
+
+
+
+
+
+        <section>
+            <div class="phisic-card">  
+                 <div class="geo-rel">
+                    <img class="float" src="/images/atom.png" alt="atom" title="ლითიუმის ატომი">  
+                    <p class="geo-rel1"><strong>ლითიუმის <br> ატომი</strong>
+                    </p>
+                </div>
+                              
+                   <div class="geo-text"> ფიზიკა (ბერძნ. φύσις (physis) — "ბუნება" ან "სხეული", ხოლო φυσικός (physikos) – "ბუნებრივი") არის მეცნიერება ბუნების შესახებ, რომელიც შეისწავლის მატერიალური სამყაროს ზოგად თვისებებს და კანონებს. ამ ზოგადობის გამო, ფიზიკა და მისი კანონები საფუძვლად უდევს მთელ ბუნებისმეტყველებას. XX საუკუნემდე მას ნატურფილოსოფიას უწოდებდნენ. ფიზიკა გახდა ახალი იდეების წყარო, რომელმაც გარდაქმნა თანამედროვე ტექნიკა: ბირთვული ენერგეტიკა, კვანტური ელექტრონიკა, რადიოლოკაცია და მრავალი სხვა. <a href="https://ka.wikipedia.org/wiki/%E1%83%A4%E1%83%98%E1%83%96%E1%83%98%E1%83%99%E1%83%90#">(იხ. სრულად)</a> <a href="https://ka.khanacademy.org/science/physics/one-dimensional-motion/introduction-to-physics-tutorial/a/what-is-physics">რა არის ფიზიკა?</a>
+                   </div>
+            </div>   
+        </section>
+        <div class="w-full max-w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
+  
+          <!-- ციტატების ბლოკი -->
+          <div class="bg-white/80 backdrop-blur-md rounded-2xl shadow-xl p-6">
+            <h3 class="text-xl sm:text-2xl md:text-3xl font-bold text-blue-900 mb-6">
+              <b>გენიალური "ფიზიკოსები" ამბობდნენ:</b>
+            </h3>
+        
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6" id="quotes-list">
+              <div class="quote-item flex items-start gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-lg hover:bg-blue-50 transition duration-300">
+                <span class="text-2xl">🧠</span>
+                <p class="text-base sm:text-lg text-gray-800">1. "სამუშაო - ძალინ კარგი რამ არის..." - ჯეიმზ კლარკ მაქსველი</p>
+              </div>
+              <div class="quote-item flex items-start gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-lg hover:bg-blue-50 transition duration-300">
+                <span class="text-2xl">⚛️</span>
+                <p class="text-base sm:text-lg text-gray-800">2. "ფიზიკოსი ცდილობს, რთული საგნები მარტივად..." - ლევ ლანდაუ</p>
+              </div>
+              <div class="quote-item hidden flex items-start gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-lg hover:bg-blue-50 transition duration-300">
+                <span class="text-2xl">🌀</span>
+                <p class="text-base sm:text-lg text-gray-800">3. "ფიზიკა არის ბუნების ენა..." - გალილეო გალილეი</p>
+              </div>
+              <div class="quote-item hidden flex items-start gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-lg hover:bg-blue-50 transition duration-300">
+                <span class="text-2xl">🌌</span>
+                <p class="text-base sm:text-lg text-gray-800">4. "ფანტაზია ბევრად უფრო მნიშვნელოვანია, ვიდრე ცოდნა." - აინშტაინი</p>
+              </div>
+            </div>
+        
+            <!-- ღილაკი ციტატებისთვის -->
+            <button onclick="toggleQuotes(this)" data-expanded="false"
+              class="mt-6 px-4 py-1 border border-blue-600 text-blue-700 bg-white rounded-md text-sm hover:bg-blue-50 hover:text-blue-900 transition duration-300 shadow-sm">
+              მეტის ნახვა
+            </button>
+          </div>
+        
+          <!-- ვიდეოების ბლოკი -->
+          <div class="bg-white/80 backdrop-blur-md rounded-2xl shadow-xl p-6">
+            <h3 class="text-xl sm:text-2xl md:text-3xl font-bold text-blue-900 mb-6">
+              <b>თემატური ვიდეო მასალა:</b>
+            </h3>
+        
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6" id="videos-list">
+              <div class="video-item">
+                <iframe class="w-full aspect-video rounded-lg" src="https://www.youtube.com/embed/g_PgXhibQM8" allowfullscreen></iframe>
+              </div>
+              <div class="video-item">
+                <iframe class="w-full aspect-video rounded-lg" src="https://www.youtube.com/embed/H53LKs4xwWI" allowfullscreen></iframe>
+              </div>
+              <div class="video-item hidden">
+                <iframe class="w-full aspect-video rounded-lg" src="https://www.youtube.com/embed/DV79WLLubgE" allowfullscreen></iframe>
+              </div>
+              <div class="video-item hidden">
+                <iframe class="w-full aspect-video rounded-lg" src="https://www.youtube.com/embed/g_PgXhibQM8" allowfullscreen></iframe>
+              </div>
+            </div>
+        
+            <!-- ღილაკი ვიდეოებისთვის -->
+            <button onclick="toggleVideos(this)" data-expanded="false"
+              class="mt-6 px-4 py-1 border border-blue-600 text-blue-700 bg-white rounded-md text-sm hover:bg-blue-50 hover:text-blue-900 transition duration-300 shadow-sm">
+              მეტის ნახვა
+            </button>
+          </div>
+        </div>
+
+
+
+
+     
+        
+        <div id="news"> <h3 class="news"><b>მეცნიერების მომავალი იწყება აქ — ჩვენი მიზანია, ფიზიკის ხელმისაწვდომი და გასაგები გახადოთ ყველასთვის.</b></h3>
+        </div>
+
+
+        <section id="td">
+        
+        <div class="box1">
+             <div class="index">
+            
+                <h4 id="news" class="news"><b>ფიზიკური თეორია</b></h4><p id="news"> <a href="https://ka.wikipedia.org/wiki/%E1%83%9B%E1%83%94%E1%83%A5%E1%83%90%E1%83%9C%E1%83%98%E1%83%99%E1%83%90">მექანიკა</a></p> 
+
+               
+                
+                  <p id="news"> <a href="https://ka.wikipedia.org/w/index.php?title=%E1%83%97%E1%83%94%E1%83%9D%E1%83%A0%E1%83%98%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%9B%E1%83%94%E1%83%A5%E1%83%90%E1%83%9C%E1%83%98%E1%83%99%E1%83%90&action=edit&redlink=1">თეორიული მექანიკა </a> </p>
+
+     
+                  
+                  <p id="news"><a href="https://ka.wikipedia.org/wiki/%E1%83%9C%E1%83%98%E1%83%A3%E1%83%A2%E1%83%9D%E1%83%9C%E1%83%98%E1%83%A1_%E1%83%99%E1%83%90%E1%83%9C%E1%83%9D%E1%83%9C%E1%83%94%E1%83%91%E1%83%98">ნიუტონის კანონები, </a><a href="https://ka.khanacademy.org/science/physics/forces-newtons-laws">ისწავლეთ...</a></p>
+
+
+                  <p id="news"><a href="https://ka.wikipedia.org/wiki/%E1%83%99%E1%83%94%E1%83%9E%E1%83%9A%E1%83%94%E1%83%A0%E1%83%98%E1%83%A1_%E1%83%99%E1%83%90%E1%83%9C%E1%83%9D%E1%83%9C%E1%83%94%E1%83%91%E1%83%98">კეპლერის კანონები </a></p>
+
+              
+                  <p id="news"><a href="https://ka.khanacademy.org/science/physics/centripetal-force-and-gravitation">ცენტრისკენული ძალა და გრავიტაცია </a></p>
+
+
+                  <p id="news"><a href="https://ka.khanacademy.org/science/physics/work-and-energy">მუშაობა და ენერგია</a></p>
+
+
+
+                  <p id="news"><a href="https://ka.wikipedia.org/wiki/%E1%83%99%E1%83%98%E1%83%9C%E1%83%94%E1%83%A2%E1%83%98%E1%83%99%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%94%E1%83%9C%E1%83%94%E1%83%A0%E1%83%92%E1%83%98%E1%83%90">კინეტიკური ენერგია</a></p> 
+
+                  
+
+
+              
+            </div>
+    
+        </div>
+
+
+        <div class="box1"> 
+              <div class="index">
+           
+                <h4 id="news" class="news"><b>ფიზიკური თეორია</b></h4>
+
+              
+
+                <p id="news"><a href="https://ka.wikipedia.org/wiki/%E1%83%98%E1%83%9B%E1%83%9E%E1%83%A3%E1%83%9A%E1%83%A1%E1%83%98%E1%83%A1_%E1%83%A8%E1%83%94%E1%83%9C%E1%83%90%E1%83%AE%E1%83%95%E1%83%98%E1%83%A1_%E1%83%99%E1%83%90%E1%83%9C%E1%83%9D%E1%83%9C%E1%83%98">იმპულსის შენახვის კანონი </a></p>
+
+
+               
+                <p id="news"><a href="https://ka.khanacademy.org/science/physics/torque-angular-momentum">ძალის მომენტი და იმპულსის მომენტი </a></p>
+
+
+
+                <p id="news"><a href="https://ka.wikipedia.org/wiki/%E1%83%98%E1%83%9B%E1%83%9E%E1%83%A3%E1%83%9A%E1%83%A1%E1%83%98%E1%83%A1_%E1%83%9B%E1%83%9D%E1%83%9B%E1%83%94%E1%83%9C%E1%83%A2%E1%83%98">იმპულსის მომენტის შენახვის კანონი </a></p>
+          
+                
+                <p id="news"><a href="https://ka.wikipedia.org/wiki/%E1%83%A1%E1%83%A2%E1%83%90%E1%83%A2%E1%83%98%E1%83%99%E1%83%90">სტატიკა</a> </p>
+
+
+                <p id="news"><a href="https://ka.wikipedia.org/wiki/%E1%83%91%E1%83%94%E1%83%A0%E1%83%99%E1%83%94%E1%83%A2%E1%83%98">ბერკეტი</a> <a href="https://ka.khanacademy.org/science/physics/discoveries/simple-machines-explorations/a/lever">ექსპერიმენტები</a></p>
+
+
+                <p id="news"><a href="https://ka.wikipedia.org/wiki/%E1%83%99%E1%83%98%E1%83%9C%E1%83%94%E1%83%9B%E1%83%90%E1%83%A2%E1%83%98%E1%83%99%E1%83%90">კინემატიკა</a></p> 
+
+
+                <p id="news"><a href="https://ka.wikipedia.org/wiki/%E1%83%93%E1%83%98%E1%83%9C%E1%83%90%E1%83%9B%E1%83%98%E1%83%99%E1%83%90">დინამიკა</a></p> 
+              
+                
+       
+            </div>
+    
+        </div>
+
+
+        <div class="box1">
+            <div class="index">
+
+              <h4 id="news" class="news"><b>ფიზიკური თეორია</b></h4> 
+
+              <p id="news"><a href="https://ka.wikipedia.org/wiki/%E1%83%98%E1%83%9C%E1%83%94%E1%83%A0%E1%83%AA%E1%83%98%E1%83%90">ინერცია</a> </p>
+
+              
+                <p id="news"> <a href="https://ka.wikipedia.org/wiki/%E1%83%A2%E1%83%A3%E1%83%A0%E1%83%91%E1%83%A3%E1%83%9A%E1%83%94%E1%83%9C%E1%83%A2%E1%83%9D%E1%83%91%E1%83%90">ტორნულენტობა</a> </p>
+
+
+                <p id="news"><a href="https://ka.wikipedia.org/wiki/%E1%83%B0%E1%83%98%E1%83%93%E1%83%A0%E1%83%9D%E1%83%93%E1%83%98%E1%83%9C%E1%83%90%E1%83%9B%E1%83%98%E1%83%99%E1%83%90">ჰიდროდინამიკა</a></p>
+
+
+                <p id="news"><a href="https://ka.wikipedia.org/wiki/%E1%83%90%E1%83%94%E1%83%A0%E1%83%9D%E1%83%93%E1%83%98%E1%83%9C%E1%83%90%E1%83%9B%E1%83%98%E1%83%99%E1%83%90">აეროდინამიკა</a> </p>
+
+           
+                <p id="news"><a href="https://ka.khanacademy.org/science/physics/mechanical-waves-and-sound">რხევა და მექანიკური ტალღები </a></p>
+
+             
+              <p id="news"><a href="https://ka.khanacademy.org/science/physics/fluids">სითხეები </a></p>
+
+
+              <p id="news"><a href="https://ka.khanacademy.org/science/physics/thermodynamics">თერმოდინამიკა </a></p>
+            
+       
+        </div>
+        </div>
+
+
+        <div class="box1">
+             <div class="index">              
+           
+                <h4 id="news" class="news"><b>ფიზიკური თეორია</b></h4>
+
+              
+              
+                <p id="news"><a href="https://ka.khanacademy.org/science/physics/electric-charge-electric-force-and-voltage">ელექტრული მუხრი, ველი და პოტენციალი </a></p>
+
+
+                <p id="news"><a href="https://ka.khanacademy.org/science/physics/circuits-topic">წრედები </a></p>
+
+
+                <p id="news"><a href="https://ka.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields">მაგნიტური ძალები, მაგნიტური ველები და ფარადეის კანონი </a></p>
+
+
+                <p id="news"><a href="https://ka.khanacademy.org/science/physics/light-waves">ელექტრომაგნიტური ტალღები და ინტერფერენცია </a></p>
+
+
+                <p id="news"><a href="https://ka.khanacademy.org/science/physics/geometric-optics">გეომეტრიული ოპტიკა </a></p>
+
+
+                <p id="news"><a href="https://ka.khanacademy.org/science/physics/special-relativity">ფარდობითობის სპეციალური თეორია </a></p>
+
+
+                <p id="news"><a href="https://ka.khanacademy.org/science/physics/quantum-physics">კვანტური ფიზიკა</a></p>
+
+
+       
+
+             </div>
+        </div>
+       
+        </section>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <section id="td">
+        
+          <div class="box3">
+               <div class="index">
+              
+                  <h4 id="news" class="news"><b>ფიზიკის თემები</b></h4><p id="news"><a href="https://ka.wikipedia.org/wiki/%E1%83%99%E1%83%95%E1%83%90%E1%83%9C%E1%83%A2%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%9B%E1%83%94%E1%83%A5%E1%83%90%E1%83%9C%E1%83%98%E1%83%99%E1%83%90">კვანტური მექანიკა;</a><br><br>
+                    <a href="https://ka.wikipedia.org/wiki/%E1%83%A0%E1%83%94%E1%83%9A%E1%83%90%E1%83%A2%E1%83%98%E1%83%95%E1%83%98%E1%83%A1%E1%83%A2%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%9B%E1%83%94%E1%83%A5%E1%83%90%E1%83%9C%E1%83%98%E1%83%99%E1%83%90">რელატივისტური ფიზიკა;</a><br><br><a href="https://intermedia.ge/%E1%83%A1%E1%83%A2%E1%83%90%E1%83%A2%E1%83%98%E1%83%90/86322-%E1%83%98%E1%83%93%E1%83%94%E1%83%9C%E1%83%A2%E1%83%9D%E1%83%91%E1%83%90-%E1%83%93%E1%83%90-%E1%83%9B%E1%83%90%E1%83%A1%E1%83%96%E1%83%94-%E1%83%9B%E1%83%9D%E1%83%A5%E1%83%9B%E1%83%94%E1%83%93%E1%83%98-%E1%83%A4%E1%83%90%E1%83%A5%E1%83%A2%E1%83%9D%E1%83%A0%E1%83%94%E1%83%91%E1%83%98/86/">იდენტობის პრობლემები;</a><br>
+                    <br> <a href="https://charlius.com/2022/04/19/unsolved-mysteries/">თანამედროვე ფიზიკის 18 ამოუხსნელი საიდუმლო</a><br><br>
+                
+
+
+                  </p>  
+              </div>
+      
+          </div>
+  
+  
+          <div class="box3"> 
+                <div class="index">
+             
+                  <h4 id="news" class="news"><b>ფიზიკოსები და მათი მიღწევები</b></h4><p id="news"><br> <a href="/physicists.html">გამოჩენილი ფიზიკოსების ავტობიოგრაფიები და მათი აღმოჩენები.</a></p>
+         
+              </div>
+      
+          </div>
+  
+  
+          <div class="box3">
+              <div class="index">
+
+                <h4 id="news" class="news"><b>მნიშვნელოვანი საკითხები</b></h4> <p id="news"><a href="https://charlius.com/2022/04/19/unsolved-mysteries/">ფიზიკა და ყოველდღიურობა;</a><br><br>
+
+                <a href="https://charlius.com/2022/04/19/unsolved-mysteries/">აქტიური სწავლების სტრატეგიები და მოსწავლეთა ჩართულობა ფიზიკის გაკვეთილზე;</a><br>
+             
+                 
+             
+              <a href="https://charlius.com/2022/04/19/unsolved-mysteries/"></a><br>
+
+              </p>
+          </div>
+          </div>
+  
+  
+          <div class="box3">
+               <div class="index">
+             
+                  <h4 id="news" class="news"><b>ფიზიკის ტესტები</b></h4>
+                  <p id="news"><br> <a href="/about.html">მასწავლებლის საგნისა და პროფესიული უნარების გამოცდი ყველა ტესტი შესაბამისი პასუხებით.</a></p>
+         
+  
+               </div>
+          </div>
+         
+          </section>
+
+
+
+
+<!-- ფსევდო ელემენტები (პირველი ხაზი განსხვავებულიიყოს, ან ასობგერა, შევუცვალოთ ფორმა, ზომა ან ყველაფერი ერთად შეგვიძლია გავწეროთ ფსევდოკლასებით)-->
+
+     
+        
+   
+       <img class="chat_icon" src="/images/Newtons_cradle.gif" alt="Newtons_cradle"> 
+       
+    </main>
+  
+    <footer id="contact" class="bg-blue-900 text-white text-center p-6 mt-10">
+ 
+      <section>
+        <ul class="li_cont">
+          <p id="fizteria">&copy;<strong>2025 ფიზტერია • ყველა უფლება დაცულია</strong> </p><br>
+          <p class="geo-rel"><b>საკონტაქტო ინფორმაცია</b></p><br>
+          <li><a class="contact" href="tel:+995568951422">+995568951422</a></li><br>
+          <li><a class="contact" href="mailto:tinatindavitadze7.com">tinatin davitadze</a></li><br>
+          <li><a class="contact" href="https://www.google.com/maps/search/%E1%83%96%E1%83%94%E1%83%A1%E1%83%A2%E1%83%90%E1%83%A4%E1%83%9D%E1%83%9C%E1%83%98,+%E1%83%AA%E1%83%9D%E1%83%A2%E1%83%9C%E1%83%94+%E1%83%93%E1%83%90%E1%83%93%E1%83%98%E1%83%90%E1%83%9C%E1%83%98%E1%83%A1+%E1%83%A5%E1%83%A3%E1%83%A9%E1%83%90/@42.1140526,43.0311178,15.33z?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D">ცოტნე დადიანის ქ.12</a></li><br>
+        </ul>
+    
+        <!-- აიქონების განლაგება -->
+        <div class="social-box">
+          <a href="https://www.facebook.com" class="social-link">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://www.youtube.com" class="social-link">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+          <a href="https://www.instagram.com" class="social-link">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://twitter.com" class="social-link">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </div>
+      </section>
+    </footer>
+    <script src="index.js"></script>
+    <script src="debbuger.js"></script>
+    <script src="posts.js"></script>
+    <script src="news.js"></script>
+    <script src="about.js"></script>
+    <script src="slider.js"></script>
+    <script src="script.js"></script>
+    <script src="fizika.js"></script>
+</body>
+</html>
+
+ <!-- 04,12,2024
+css psevdo-elements     ფსევდო ელემენტები
+ პირველი ხაზი იყოს განსხვავებული  -->
+
+
+
+
